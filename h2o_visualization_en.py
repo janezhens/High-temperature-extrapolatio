@@ -24,7 +24,7 @@ def load_and_prepare_data():
     print("Loading H2O prediction results...")
     
     # Load prediction results
-    df_pred = pd.read_csv('H2O_cross_section_predictionss.csv')
+    df_pred = pd.read_csv('H2O_cross_section_fixed_predictions.csv')
     print(f"Prediction data shape: {df_pred.shape}")
     
     # Load original H2O data
